@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<h3>Cálculo diferencia de edades</h3>
+
+<script>
+
+    amigo1 = 29;
+    amigo2 = 28;
+
+    function diferencia_edad(edad1, edad2){
+        document.write(edad1-edad2);
+    }
+
+    function imprimir(mensaje){
+        document.write(mensaje);
+    }
+
+    function saltarLinea(){
+        document.write("<br>");
+    }
+
+    imprimir("El primer amigo tiene: " +(amigo1) + "años.");
+    saltarLinea();
+    imprimir("El segundo amigo tiene: " +(amigo2) + "años.");
+    saltarLinea();
+    
+    imprimir("La diferencia de edad es de: ");
+    diferencia_edad(amigo1, amigo2);
+    
+</script>
