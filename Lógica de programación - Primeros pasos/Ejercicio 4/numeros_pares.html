@@ -4,19 +4,19 @@
     function saltarLinea() {
         document.write("<br>");
     }
-
+    
     function imprimir(frase) {
         document.write(frase);
         saltarLinea();
     }
-
+    // Iniciamos el contador en 2 ya que 1 no es número par
     var contador = 2;
-    
+    // Vamos a contar desde 2-100
     while (contador<=100){
         imprimir(contador);
         contador = contador+2;
     }
-
+    // Terminado el ciclo mostramos el mensaje 'FIN'
     imprimir("FIN");
 
 </script>
